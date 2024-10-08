@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guía Completa de Markdown :: My New Hugo Site</title>
+    <link>http://localhost:1313/basics/first-content/index.html</link>
+    <description>Una guía completa para aprender Markdown y mejorar tus documentos.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/basics/first-content/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

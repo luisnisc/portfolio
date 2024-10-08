@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal :: My New Hugo Site</title>
+    <link>http://localhost:1313/personal/index.html</link>
+    <description>Zona personal Esta página tiene información técnica sobre mi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Oct 2024 13:38:22 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/personal/markdown/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 13:38:22 +0200</pubDate>
+      <guid>http://localhost:1313/personal/markdown/index.html</guid>
+      <description>Markdown es un lenguaje de marcado ligero que puedes usar para añadir formato a tus documentos de texto. Aquí te mostramos cómo usarlo.&#xA;Encabezado 1 Encabezado 2 Encabezado 3 Este texto está en negrita Este texto está en cursiva&#xA;Elemento 1 Elemento 2 Elemento 3 Primer elemento Segundo elemento Tercer elemento Enlace a Google</description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/personal/javascript/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 13:28:10 +0200</pubDate>
+      <guid>http://localhost:1313/personal/javascript/index.html</guid>
+      <description>📚 Guía Completa de JavaScript JavaScript es un lenguaje de programación versátil y ampliamente utilizado para el desarrollo web. Esta guía te ayudará a entender los conceptos básicos y avanzados de JavaScript.&#xA;📖 Introducción JavaScript es un lenguaje de programación interpretado, orientado a objetos y basado en prototipos. Es uno de los tres lenguajes principales de la web, junto con HTML y CSS.&#xA;🛠️ Instalación Para ejecutar JavaScript en tu máquina local, necesitas instalar Node.js. Puedes descargarlo desde nodejs.org.</description>
+    </item>
+  </channel>
+</rss>
