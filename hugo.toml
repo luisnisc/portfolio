@@ -1,6 +1,7 @@
 baseURL = 'https://luisnisc.github.io/portfolio'
+
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Web Site Luis'
 theme= 'hugo-theme-relearn-main'
   [[params.themeVariant]]
     auto = []
