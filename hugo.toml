@@ -1,5 +1,5 @@
 baseURL = 'https://luisnisc.github.io/portfolio/'
-
+relativeURLs = true
 languageCode = 'en-us'
 title = 'Web Site Luis'
 theme= 'hugo-theme-relearn-main'
