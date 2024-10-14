@@ -1,0 +1,27 @@
+{{ $titulo := .Get "titulo" | default "Objetivos" }}
+
+<div id="lista">
+  <h3>{{$titulo}}</h3>
+  {{ $lines := split .Inner "\n" }} {{ range $line := $lines }}
+  <ul>
+    <li>{{ $line }}</li>
+  </ul>
+  {{ end }}
+</div>
+<style>
+  #lista {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    width: max-content;
+  }
+  li:hover {
+    color: white;
+    transition: 200ms;
+    width: max-content;
+  }
+</style>

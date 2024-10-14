@@ -3,15 +3,17 @@ title = 'Markdown'
 date = 2024-10-04T13:38:22+02:00
 draft = false
 +++
+
 Markdown es un lenguaje de marcado ligero que puedes usar para añadir formato a tus documentos de texto. Aquí te mostramos cómo usarlo.
 
-
 # Encabezado 1
+
 ## Encabezado 2
+
 ### Encabezado 3
 
 **Este texto está en negrita**
-*Este texto está en cursiva*
+_Este texto está en cursiva_
 
 - Elemento 1
 - Elemento 2
@@ -30,7 +32,7 @@ Este es un bloque de código
 \```
 
 | Encabezado 1 | Encabezado 2 |
-|--------------|--------------|
+| ------------ | ------------ |
 | Fila 1       | Columna 1    |
 | Fila 2       | Columna 2    |
 
@@ -78,9 +80,10 @@ gantt
     Task in sec      :2024-10-04, 12d
     another task     :after a1, 24d
 ```
+
 {{% resources style="primary" expanded="false" /%}}
 
-{{<text color="red" angle="180">}}
+<!-- {{<text color="red" angle="180">}}
 
 {{<text color="blue" angle="90">}}
 
@@ -98,6 +101,21 @@ gantt
 
 {{<text color="black" angle="270">}}
 
-{{<text color="white" angle="0">}}
+{{<text color="white" angle="0">}} -->
 
-fasdfdasfasdfasdfasdf
+{{<objetivos titulo="Primera Lista">}}Titulo1
+Titulo2
+Titulo3
+Titulo4
+Titulo5
+Titulo6
+Titulo7
+Titulo8{{</objetivos>}}
+{{<objetivos titulo="Segunda Lista">}}Titulo9
+Titulo10
+Titulo11
+Titulo12
+Titulo13
+Titulo14
+Titulo15
+Titulo16{{</objetivos>}}
