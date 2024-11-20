@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{partial "menu.html" .}} {{partial "header.html" .}}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lista de Canales</h1>
+    <ul>
+      {{ range .Site.Data.tv}}
+
+      <h1>{{.name}}</h1>
+      <table>
+        {{ range .channels}}
+        {{ $count := 0}}
+        <tr>
+          <td>
+            
+            <a href="{{.web}}" target="_blank">
+              <img src="{{.logo}}" alt=".channels" />
+            </a>
+          </td>
+        </tr>
+        {{ end }}
+        {{ $count = add $count 1}}
+        {{ end }}
+      </table>
+      {{ end }}
+    </ul>
+  </body>
+</html>

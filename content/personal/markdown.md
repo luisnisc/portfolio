@@ -103,19 +103,23 @@ gantt
 
 {{<text color="white" angle="0">}} -->
 
-{{<objetivos titulo="Primera Lista">}}Titulo1
+{{<objetivos titulo="Primera Lista">}}
+Titulo1
 Titulo2
 Titulo3
 Titulo4
 Titulo5
 Titulo6
 Titulo7
-Titulo8{{</objetivos>}}
-{{<objetivos titulo="Segunda Lista">}}Titulo9
+Titulo8
+{{</objetivos>}}
+{{<objetivos titulo="Segunda Lista">}}
+Titulo9
 Titulo10
 Titulo11
 Titulo12
 Titulo13
 Titulo14
 Titulo15
-Titulo16{{</objetivos>}}
+Titulo16
+{{</objetivos>}}
